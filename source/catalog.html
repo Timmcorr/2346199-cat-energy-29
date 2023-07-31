@@ -4,39 +4,38 @@
   <meta charset="UTF-8">
   <title>HTML Academy: Кэт энерджи</title>
 </head>
-<body>
-<header class="header header--inside">
-  <div class="container header__container">
-    <div class="logo">
-      <a class="logo__symbol" href="/">
-        <picture>
-          <source media="(max-width: 480px)" srcset="#">
-          <source media="(min-width: 480px)" srcset="#">
-          <img class="image" src="#" alt="Символ Cat Energy">
-        </picture>
-      </a>
-      <a class="logo__brand" href="/">
-        <img class="image" src="#" alt="Бренд Cat Energy">
-      </a>
-    </div>
-    <nav class="menu">
-      <ul class="menu__list">
-        <li class="menu__item">
-          <a class="menu-item" href="#">Главная</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu-item" href="#">Каталог продукции</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu-item" href="#">Подбор программы</a>
-        </li>
-      </ul>
+<body class="page__body">
+ <header class="main-header">
+    <a class="main-header__logo" href="/">
+      <picture>
+        <source media="(max-width: 480px)" srcset="#">
+        <source media="(min-width: 480px)" srcset="#">
+        <img class="main-header__logo-image image" src="#" alt="Логотип Cat Energy">
+      </picture>
+    </a>
+    <a class="main-header__logo-brand" href="/">
+      <img class="main-header__logo-brand-image image" src="#" alt="Бренд Cat Energy">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle-hamburger" type="button">
+        <img class="image" src="#" alt="Меню">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="main-nav__list">
+        <ul class="menu__list site-list">
+          <li class="site-list__item">
+            <a class="site-list-item" href="#">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list-item" href="#">Каталог продукции</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list-item" href="#">Подбор программы</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <button class="hamburger" type="button">
-      <img class="image" src="#" alt="Меню">
-    </button>
-  </div>
-</header>
+  </header>
 <main class="main">
   <section class="title">
     <div class="container title__container">
